@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Galdeano&family=Gelasio:wght@500&family=Gentium+Book+Basic&display=swap');
+
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.nav
+{
+    display: flex;
+    background-image: linear-gradient(0deg,rgb(252, 255, 255),rgba(110, 238, 246,.61));
+    padding: 10px;
+    font-family: 'Gelasio', serif;
+    box-shadow: 0 0 0.75rem rgba(0,0,0,0.25);
+    overflow: hidden;
+}
+
+.nav .left
+{
+    width: 30%;
+    justify-content: left;
+    align-items: left;
+}
+
+#Category
+{
+    border: 0cm;
+    border-radius: 5px;
+    padding: 3px;
+    height: 30px;
+    box-shadow: 2px 3px rgba(0, 0, 0,0.25);
+}
+
+#Author
+{
+    border: 0cm;
+    border-radius: 5px;
+    padding: 3px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 13px;
+    box-shadow: 2px 3px rgba(0, 0, 0,0.25);
+}
+
+#Category option {
+    
+    font-size: 14px;
+  }
+
+.nav .middle
+{
+    width: 40%;
+}
+
+.middle img
+{
+
+  border-radius: 5px;
+  margin: 2% 30% ;
+  height: 100px;
+}
+
+
+.nav .right
+{
+    width: 30%;
+    text-align: right;
+    align-items: end;
+    display: block;
+    text-align: end;
+}
+
+.right img{
+    height: 20px;
+    width: 20px;
+    margin-left: -27px;
+    position: absolute;
+
+}
+
+.right span
+{
+    margin-right: 44px;
+    margin-top: 1px;
+}
+
+.total
+{
+   text-align: center;
+   margin-left: 336px;
+    border-radius: 5px;
+    padding: 3px;
+    height: 30px;
+    margin-top: 15px;
+    background-color: rgb(255, 255, 255);
+    width: 100px;
+    box-shadow: 2px 3px rgba(0, 0, 0,0.25);
+    text-decoration: none;
+}
+
+
+.add
+{
+   text-align: center;
+   margin-left: 336px;
+    border-radius: 5px;
+    padding: 4px 3px;
+    height: 30px;
+    margin-top: 15px;
+    background-color: rgb(255, 255, 255);
+    width: 100px;
+    box-shadow: 2px 3px rgba(0, 0, 0,0.25);
+    text-decoration: none;
+    background-color: brown;
+
+}
+
+.add a
+{
+    text-decoration: none;
+    color: white;
+
+}
+
+.total p
+{
+    margin-top: 3px;
+}
+
+.content table
+{
+    width: 100%;
+    margin-top: 2px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.content table td,tr
+{
+    border: 3px solid  rgba(0, 0, 0,0.2);
+    
+}
+
+.content table .header td
+{
+    text-align: center;
+     font-family: 'Gelasio', serif;   
+     background-color: white; 
+     padding: 5px; 
+     font-size: 18px;
+     box-shadow: 2px 3px rgba(0, 0, 0,0.25);
+     font-weight: 600;      
+}
+
+.content table td
+{
+    text-align: center;
+     font-family: 'Gelasio', serif;   
+     background-color: #DEFFFD;
+     padding: 3px;        
+}
+
+#status,#user
+{
+    /* width: 25%; */
+    text-align: center;
+     border-radius: 5px;
+     padding: 6px 0px;
+     height: 30px;
+     border: none;
+     width: 100px;
+     box-shadow: 2px 3px rgba(0, 0, 0,0.25);
+}
+
+#update-btn{
+    text-align: center;
+    border-radius: 5px;
+    padding: 6px 6px;
+    height: 30px;
+    border: none;
+    color: blue;
+    box-shadow: 2px 3px rgba(0, 0, 0,0.25);
+    text-decoration: none;
+    background-color: white;
+    margin-left: 5px;
+}
+#delete-btn{
+    text-align: center;
+    border-radius: 5px;
+    padding: 6px 6px;
+    height: 30px;
+    border: none;
+    color: rgb(255, 0, 21);
+    box-shadow: 2px 3px rgba(0, 0, 0,0.25);
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    margin-left: 5px;
+}
+
+#th1
+{
+    width: 5%;
+}
+
+#th2
+{
+    width: 50%;
+}
+#th3
+{
+    width: 10%;
+}
+#th4
+{
+    width: 10%;
+}
+#th5
+{
+    width: 25%;
+}
+
+input[type=text]
+{
+    width: 15%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 30px;
+    box-sizing: border-box;
+  }
+
